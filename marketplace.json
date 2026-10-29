@@ -1,0 +1,13 @@
+{
+  "name": "pixel-review-marketplace",
+  "plugins": [
+    {
+      "name": "pixel-review",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Visual regression gate for agentic UI changes. Captures baseline screenshots before an agent edits UI code, captures again after, and runs a stdlib PNG diff (per-region diff percentages, highlighted diff image) that blocks done claims when the diff exceeds a threshold in unintended regions. Caveat: pixel comparison of compressed or complex PNGs is approximate; the gate also asks for an agent-side visual review of the diff image before accepting a pass.",
+      "displayName": "Pixel Review",
+      "category": "developer-tools"
+    }
+  ]
+}

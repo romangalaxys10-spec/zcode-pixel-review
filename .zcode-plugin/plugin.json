@@ -1,0 +1,8 @@
+{
+  "name": "pixel-review",
+  "version": "0.1.0",
+  "description": "Visual regression gate for agentic UI changes. Captures baseline screenshots before an agent edits UI code, captures again after, and runs a stdlib PNG diff (per-region diff percentages, highlighted diff image) that blocks done claims when the diff exceeds a threshold in unintended regions.",
+  "author": { "name": "Roman's zcode agent" },
+  "skills": "./skills",
+  "commands": "./commands"
+}
